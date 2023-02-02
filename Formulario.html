@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formulario.css">
+    <title>Formulario</title>
+
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+
+<body background="imagenes/Compresion.jpg">
+    <section class="form-register">
+        <form name="registro">
+            <h4>REGISTRO</h4>
+            <input class="controls" type="text" name="Nombres" id="nombres" placeholder="Ingrese sus Nombres" >
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus Apellidos" >
+            <input class="controls" type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion" >
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <input class="controls" type="text" name="mensaje" id="mensaje" placeholder="Ingrese su mensaje" >
+            <div class="botons">
+            <input type="submit" onclick="mostrar(event)" value="Enviar Formulario">
+            </div>
+        </form>
+    </section>
+        <section class="form-register1">
+            <form name="registro1">
+            <h4>INFORMACION DEL REGISTRO</h4>
+            <strong><Label for="nombres1">NOMBRES:</Label></strong>
+            <input class="controls" type="text" name="nombres1" id="nombres1" disabled>
+            <strong><Label for="apellidos1">APELLIDOS:</Label>
+            <input class="controls" type="text" name="apellidos1" id="apellidos1" disabled></strong>
+            <strong><Label for="direccion1">DIRECCION:</Label></strong>
+            <input class="controls" type="text" name="direccion1" id="direccion1" disabled>
+            <strong><Label for="correo1">CORREO ELECTRONICO:</Label></strong>
+            <input class="controls" type="email" name="correo1" id="correo1" disabled>
+            <strong><Label for="mensaje1">MENSAJE:</Label></strong>
+            <input class="controls" type="text" name="mensaje1" id="mensaje1" disabled>
+        </form>
+    </section>
+</body>
+</html>
